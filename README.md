@@ -8,5 +8,6 @@ With this toolkit, you’ll be able to:
 
 - Extract Data: Retrieve detailed video data such as views, likes, comments, and more using the YouTube API.
 - Process & Clean Data: Prepare the data for analysis by handling any missing or inconsistent values and ensuring columns has the correct data types.
-- Analyze Trends: Use Python libraries to identify patterns, visualize data, and gain insights from popular content, audience engagement, and video performance.  
+- Analyze Trends: Use Python libraries to identify patterns, visualize data, and gain insights from popular content, audience engagement, and video performance.
+
 Whether you're new to API data scraping or looking to dive deeper into video data analysis, this repository provides clear code, examples, and explanations to help you get started!
