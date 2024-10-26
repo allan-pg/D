@@ -5,7 +5,7 @@
 This project demonstrates the end-to-end process of extracting data from YouTube using the YouTube API and analyzing it with Python in Jupyter Notebook. By gathering video metrics and related data, we can explore various insights, such as content trends, engagement metrics, and audience behavior. This project highlights my skills in API data extraction, data analysis, and data visualization to deliver meaningful insights.
 
 ## Table of Contents
-[Introduction](Introduction)  
+- [Introduction](#Introduction)  
 
 
 ## Introduction
