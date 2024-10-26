@@ -66,3 +66,11 @@ Conducting analyses such as:
 - Audience demographics and regional insights
 ### Visualization
 - Visualizing data using charts to highlight trends and findings.
+
+## Future Improvements
+- **Automate Data Collection**
+ Schedule regular data updates using cron jobs or serverless functions.
+- **Expand Dataset**
+ Include additional social media APIs to gather broader context.
+- **Integrate Machine Learning**
+ Develop models to predict engagement or trend patterns based on historical data.
