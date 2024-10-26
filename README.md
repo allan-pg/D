@@ -38,7 +38,7 @@ With the rise of video content, YouTube has become a valuable data source to und
 
 ## Technologies & Tools
 ### Languages
-Python 🐍
+- Python 🐍
 ### Tools
 - Jupyter Notebook 📃
 - YouTube Data API v3 🔑
