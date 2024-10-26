@@ -47,10 +47,10 @@ Python
 - Jupyter Notebook
 - YouTube Data API v3
 ### Libraries
-- pandas
-- numpy
-- matplotlib
-- seaborn
+- pandas 🐼
+- numpy 💻
+- matplotlib 📉
+- seaborn 📊
 - requests
 - google-auth
 ### API
