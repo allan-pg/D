@@ -51,3 +51,18 @@ With the rise of video content, YouTube has become a valuable data source to und
 - google-auth
 ### API
 - YouTube Data API v3
+
+## Project Workflow
+### API Setup
+- Setting up the YouTube API access and authentication.
+### Data Extraction 
+- Using API calls to gather data, including video statistics, channel information, and comments.
+### Data Wrangling  
+- Cleaning and organizing the extracted data.
+### Data Analysis
+Conducting analyses such as:
+- Top-performing videos and channels
+- View and engagement patterns over time
+- Audience demographics and regional insights
+### Visualization
+- Visualizing data using charts to highlight trends and findings.
