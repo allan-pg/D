@@ -21,7 +21,7 @@ This project demonstrates the end-to-end process of extracting data from YouTube
   - [Step 1: Create a Project in Google Cloud Console](#Create-a-Project-in-Google-Cloud-Console)
   - [Step 2: Enable the YouTube Data API v3](#Enable-the-YouTube-Data-API-v3)
   - [Step 3: Create an API Key](#Create-an-API-Key)
-  - [Step 4: Store Your API Key in the Project](#Step-4:Store-Your-API-Key-in-the-Project)
+  - [Step 4: Store Your API Key in the Project](#Step-4-Store-Your-API-Key-in-the-Project)
 - [Future Improvements](#Future-Improvements) 
 
 ## Introduction
