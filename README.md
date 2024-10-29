@@ -5,23 +5,24 @@
 This project demonstrates the end-to-end process of extracting data from YouTube using the YouTube API and analyzing it with Python in Jupyter Notebook. By gathering video metrics and related data, we can explore various insights, such as content trends, engagement metrics, and audience behavior. This project highlights my skills in API data extraction, data analysis, and data visualization to deliver meaningful insights.
 
 ## Table of Contents
-- [Introduction](#Introduction)
-- [Project Objectives](#Project-Objectives)
-- [Technologies & Tools](#Technologies--Tools)
+1. [Introduction](#Introduction)
+2. [Project Objectives](#Project-Objectives)
+3. [Technologies & Tools](#Technologies--Tools)
   - [Languages](#languages)
   - [Tools & Libraries](#tools--libraries)
   - [APIs](#apis)
-- [Project Workflow](#project-workflow)
+4. [Project Workflow](#project-workflow)
   - [API Setup](#API-Setup)
   - [Data Extraction](#data-extraction)
   - [Data Wrangling](#data-wrangling)
   - [Data Analysis](#data-analysis)
   - [Data Visualization](#data-visualization)
-- [Set up your YouTube API Key](#Set-up-your-YouTube-API-Key)
-  - [Step 1: Create a Project in Google Cloud Console](#Create-a-Project-in-Google-Cloud-Console)
-  - [Step 2: Enable the YouTube Data API v3](#Enable-the-YouTube-Data-API-v3)
-  - [Step 3: Create an API Key](#Create-an-API-Key)
+5. [Set up your YouTube API Key](#Set-up-your-YouTube-API-Key)
+  - [Step 1: Create a Project in Google Cloud Console](#Step-1-Create-a-Project-in-Google-Cloud-Console)
+  - [Step 2: Enable the YouTube Data API v3](#Step-2-Enable-the-YouTube-Data-API-v3)
+  - [Step 3: Create an API Key](#Step-3-Create-an-API-Key)
   - [Step 4: Store Your API Key in the Project](#Step-4-Store-Your-API-Key-in-the-Project)
+6. [Data Extraction](#Data-Extraction)
 - [Future Improvements](#Future-Improvements) 
 
 ## Introduction
@@ -113,6 +114,8 @@ Conducting analyses such as:
 YOUTUBE_API_KEY=AIzaSyAvfJxZmgCs3wE2ePSgVrm94Jsik-UITOk
 ```
 **Note: The .env file is included in .gitignore to keep your API key private. Do not share or commit this file in a public repository.**
+
+## Data Extraction
 
 ## Future Improvements
 - **Automate Data Collection**
