@@ -111,7 +111,7 @@ Conducting analyses such as:
 1. In the root directory of the project, create a ```.env``` file.
 2. Open the .env file and add your API key like so:
 ```bash
-YOUTUBE_API_KEY=AIzaSyAvfJxZmgCs3wE2ePSgVrm94Jsik-UITOk
+YOUTUBE_API_KEY= YOUR API KEY
 ```
 **Note: The .env file is included in .gitignore to keep your API key private. Do not share or commit this file in a public repository.**
 
