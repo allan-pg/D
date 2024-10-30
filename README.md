@@ -105,7 +105,7 @@ Conducting analyses such as:
 ![image](https://github.com/user-attachments/assets/5053c8f3-db52-43f0-a7fa-703a218dca81)
 4. Copy the generated API key.
    - **NOTE: I DELETED THIS API KEY AFTER CREATING IT**
-![image](https://github.com/user-attachments/assets/bd0c8a82-6ba9-480f-a5f0-41ea82090f4a)
+
 
 ### Step 4: Store Your API Key in the Project
 1. In the root directory of the project, create a ```.env``` file.
