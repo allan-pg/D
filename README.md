@@ -116,6 +116,67 @@ YOUTUBE_API_KEY= YOUR API KEY
 **Note: The .env file is included in .gitignore to keep your API key private. Do not share or commit this file in a public repository.**
 
 ## Data Extraction
+- Import python libraries we will need for this project
+```python
+import os
+from googleapiclient.discovery import build
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+plt.style.use('ggplot')
+```
+- Write a python function to fetch data from youtube in JSON format
+```python
+def channel_data(api_key, channel_id):
+    all_data = []
+    youtube = build('youtube', 'v3', developerKey = api_key)
+
+    request = youtube.channels().list(
+        part = 'snippet, contentDetails, statistics',
+        id = ','.join(channel_id)
+    )
+
+    response = request.execute()
+    for i in range(len(response['items'])):
+        data = dict(channel_title = response['items'][i]['snippet']['title'],
+                    created_date = response['items'][i]['snippet']['publishedAt'],
+                    subscribers = response['items'][i]['statistics']['subscriberCount'],
+                    total_videos = response['items'][i]['statistics']['videoCount'],
+                    total_views = response['items'][i]['statistics']['viewCount'],
+                    playlist_id = response['items'][i]['contentDetails']['relatedPlaylists']['uploads']
+                   )
+        all_data.append(data)
+    return all_data
+```
+
+- Define your Api keys and Channel ID
+- Import necessary libraries to access the API Key saved in the .env
+  
+~~~python
+from dotenv import load_dotenv
+
+# Load the .env file
+load_dotenv()
+
+# Access the API key
+api_key = os.getenv("API_KEY")
+~~~
+
+- To find the chanel ID you can use < a href="https://www.tunepocket.com/youtube-channel-id-finder/?srsltid=AfmBOoqI_8UYGYspZ1Cc846BLsIar_mxQSzz-Wq1498Gxvc2SU48xbHP"> Tune Pocket </a> sinceit makes it generates channel ID by just typing in the name of the channel you need Channel ID.
+~~~python
+CHANNEL_ID = ['UChQXn6sL9ENIpA74qqPG1HA',
+              'UCaWu4TkcsWcZbw0Pg26OltQ',
+              'UC6fVFxrbf0HDRW3B2mdWFGA',
+              'UCE3KVkSH1GwUtAAMcVcJ3QQ',
+              'UCFBoqaPTCtGJi8kr7pV33Tg',
+              'UCJ7F5LT-7h8Hfplf6BTTiXg',
+              'UC7h4tUtdH0L06sDZVmBMc4Q',
+              'UC5h4-WH0LAV4CWs380yM33A',
+              'UCx1WDOZzmyIa1MlK1W3RdOg',
+              'UCgSP5G3RmKJl72aA2lBV_Jw',
+              'UCVfZr3RQTqRgYQkA-eXAxiA',
+              'UCPUMDSDu_WC8LVzWjiyVgNQ']
+~~~
 
 ## Future Improvements
 - **Automate Data Collection**
