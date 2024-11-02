@@ -81,8 +81,8 @@ Conducting analyses such as:
 1. Go to google console
 ![image](https://github.com/user-attachments/assets/f64ef4d5-50b8-4691-8303-d608fa1a9c86)
 2. If you don't already have a project, click on Select Project in the top navigation bar, then create New Project.
-   - Note I already have created a project named YouTube API as shown click on the drop down list and create a new project
 ![image](https://github.com/user-attachments/assets/112670cc-a6af-45f7-b381-4478e1a71e05)
+ - Note I already have created a project named YouTube API as shown click on the drop down list and create a new project
 3. Give your project a name, then click Create.
 ![image](https://github.com/user-attachments/assets/453aadac-55ce-4ef7-a99e-7dbcadaf0c57)
 
