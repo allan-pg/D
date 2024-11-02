@@ -162,7 +162,7 @@ load_dotenv()
 api_key = os.getenv("API_KEY")
 ~~~
 
-- To find the chanel ID you can use < a href="https://www.tunepocket.com/youtube-channel-id-finder/?srsltid=AfmBOoqI_8UYGYspZ1Cc846BLsIar_mxQSzz-Wq1498Gxvc2SU48xbHP"> Tune Pocket </a> sinceit makes it generates channel ID by just typing in the name of the channel you need Channel ID.
+- To find the chanel ID you can use <a href="https://www.tunepocket.com/youtube-channel-id-finder/?srsltid=AfmBOoqI_8UYGYspZ1Cc846BLsIar_mxQSzz-Wq1498Gxvc2SU48xbHP">Tune Pocket</a> sinceit makes it generates channel ID by just typing in the name of the channel you need Channel ID.
 ~~~python
 CHANNEL_ID = ['UChQXn6sL9ENIpA74qqPG1HA',
               'UCaWu4TkcsWcZbw0Pg26OltQ',
