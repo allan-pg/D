@@ -162,7 +162,7 @@ load_dotenv()
 api_key = os.getenv("API_KEY")
 ~~~
 
-- To find the chanel ID you can use <a href="https://www.tunepocket.com/youtube-channel-id-finder/?srsltid=AfmBOoqI_8UYGYspZ1Cc846BLsIar_mxQSzz-Wq1498Gxvc2SU48xbHP">Tune Pocket</a> sinceit makes it generates channel ID by just typing in the name of the channel you need Channel ID.
+- To find the chanel ID you can use <a href="https://www.tunepocket.com/youtube-channel-id-finder/?srsltid=AfmBOoqI_8UYGYspZ1Cc846BLsIar_mxQSzz-Wq1498Gxvc2SU48xbHP">Tune Pocket</a> since it generates channel ID by just typing in the name of the channel you need Channel ID.
 ~~~python
 CHANNEL_ID = ['UChQXn6sL9ENIpA74qqPG1HA',
               'UCaWu4TkcsWcZbw0Pg26OltQ',
@@ -177,6 +177,15 @@ CHANNEL_ID = ['UChQXn6sL9ENIpA74qqPG1HA',
               'UCVfZr3RQTqRgYQkA-eXAxiA',
               'UCPUMDSDu_WC8LVzWjiyVgNQ']
 ~~~
+
+- Access the data saved in the channel_data() function to see data saved in the JSON file
+~~~python
+channel_stat = channel_data(API_KEY, CHANNEL_ID)
+channel_stat
+~~~
+
+![image](https://github.com/user-attachments/assets/99522aca-b880-405b-803e-095f042d773e)
+
 
 ## Future Improvements
 - **Automate Data Collection**
